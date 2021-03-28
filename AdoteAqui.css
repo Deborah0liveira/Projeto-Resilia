@@ -1,0 +1,116 @@
+header {
+    display: flex;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+.container-flex {
+    background: yellow;
+    width: 50%;
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+}
+
+.informacoes {
+    background: grey;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.flex {
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+.paragrafo1 {
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo2 {
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo3 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    margin: 30px 80px;
+}
+
+.container-flex:hover {
+    background: lightyellow;
+    color: yellow;
+    font-size: x-large;
+    transition: background 2s;
+}
+
+.paragrafo1:hover {
+    background: lightgray;
+    color: gray;
+    font-size: x-large;
+    transition: background 2s;
+}
+
+.paragrafo2:hover {
+    background: lightgray;
+    color:gray;
+    font-size: x-large;
+    transition: background 2s;
+}
+
+.paragrafo3:hover {
+    background: lightgray;
+    color: gray;
+    font-size: x-large;
+    transition: background 2s;
+}
+
+.flex-container {
+    display: flex !important;
+}
+
+
+.container2 {
+    background-color: yellow;
+    color: black;
+    margin-top: 53px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+@media (max-width: 700px) { 
+    .container-flex
+    {
+        display: none !important;
+    }
+}    
+
+@media (max-width: 700px) {
+    .flex-container{
+        display: block !important;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .informacoes{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+        
+}
