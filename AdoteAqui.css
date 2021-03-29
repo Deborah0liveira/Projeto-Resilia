@@ -78,6 +78,7 @@ p {
 
 .flex-container {
     display: flex !important;
+    margin-top: 20px;
 }
 
 
@@ -88,6 +89,7 @@ p {
     height: 40px;
     text-align: center;
     justify-content: center;
+    width: 100%;
     
 }
 
